@@ -1,0 +1,67 @@
+.inside-header {
+	padding: 5px 0;
+	background-color: #152935;
+}
+.White {
+		color: #ffffff;
+}
+.inside-header p a {
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+
+
+}
+
+p {
+	text-align: right;
+	margin-right: 120px;
+	font: serif;
+	line-height: 20px;
+}
+
+
+
+.img_logo {
+	margin: 10px 150px 0;
+	
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+	margin-top: 35px;
+	margin-right: 170px;
+}
+
+.menu li{
+	display: inline;
+	margin: 0px 10px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+
+.menu a {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	text-decoration: none;
+	color: #000000;
+
+
+
+}
+
+.menu a:hover  {
+	color: #fd6008;
+	/*acho que é javascript mais para frente fazer borda*/
+	/*border-top: 2px solid #fd6008;*/
+}
+
+.container_video {
+	background: url(Imagens/woman-typing-in-mobile-orbium.mp4);
+}
