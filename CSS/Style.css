@@ -1,19 +1,30 @@
+body {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
 .inside-header {
-	padding: 5px 0;
+	/*padding: 5px 0;*/
 	background-color: #152935;
+	height: 30px;
+
 }
-.White {
-		color: #ffffff;
+
+.inside-header p { 
+	margin-right: 162px;
+	padding-top: 5px;
 }
-.inside-header p a {
-	font-size: 12px;
+
+
+.inside-header p, a {
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 11px;
 	color: #ffffff;
 	text-decoration: none;
 
 
 }
 
-p {
+.inside-paragraph {
 	text-align: right;
 	margin-right: 120px;
 	font: serif;
@@ -23,15 +34,20 @@ p {
 
 
 .img_logo {
-	margin: 10px 150px 0;
+	margin: 10px 125px 0;
 	
+}
+
+.contener_menu {
+	height: 85px
 }
 
 .menu {
 	display: inline-block;
 	float: right;
-	margin-top: 35px;
-	margin-right: 170px;
+	margin-top: 37px;
+	margin-right: 140px;
+
 }
 
 .menu li{
@@ -46,7 +62,6 @@ p {
 
 .menu a {
 	font-family: Lato, Arial, Helvetica, sans-serif;
-	font-weight: bold;
 	font-size: 14px;
 	display: block;
 	text-decoration: none;
@@ -62,6 +77,65 @@ p {
 	/*border-top: 2px solid #fd6008;*/
 }
 
-.container_video {
-	background: url(Imagens/woman-typing-in-mobile-orbium.mp4);
+
+.background-video {
+	position: static; 
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -5;
+	background-size: cover; 
+}
+
+.text-video {
+	position: absolute;
+	top: 300px;
+	left: 8%;
+}
+
+.main-title {
+	color: #ffffff;
+	font-size: 55px;
+	font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.border-main-text {
+	border-bottom: 2px solid #ffffff;
+	width: 40%;
+	margin-left: 30%;
+
+}
+
+.main-paragraph {
+	color: #ffffff;
+	font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.buttom-welcome {
+	cursor: pointer;
+	margin-top: 50px;
+	border: 1px solid#fd6008;
+	width: 45%;
+	position: relative;
+	margin-left: 150px;
+	background-color: #fd6008;
+	height: 35px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.into-buttom {
+	font-size: 15px;
+	text-transform: uppercase;
+	
+}
+
+.into-buttom p{
+	padding-top:  10px;
 }
